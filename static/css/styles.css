@@ -35,3 +35,27 @@ li {
 li:last-child {
     border-bottom: none;
 }
+
+select, input[type="text"] {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#searchKeyword {
+    width: 50%;
+}
+
+li button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Adjustments or additional styles for updated elements */
+li.done {
+    color: #888;
+    text-decoration: line-through; /* Strike through completed tasks */
+}
